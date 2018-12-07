@@ -108,9 +108,9 @@ NODE=node
 rm -rf ./build/standalone
 
 # pull the latest version
-updateCore || true
+# updateCore || true
 
-installGlobalDeps
+# installGlobalDeps
 updateNodeModules
 
 echo -e "c9.*\n.gitignore" >  plugins/.gitignore
