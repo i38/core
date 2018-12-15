@@ -563,7 +563,7 @@ module.exports = function(options) {
         "plugins/c9.ide.processlist/processlist",
         
         // Installer
-        "plugins/c9.ide.installer/gui",
+        //"plugins/c9.ide.installer/gui",
         "plugins/c9.automate/automate",
         "plugins/c9.ide.installer/commands/centos",
         "plugins/c9.ide.installer/commands/darwin",
